@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		8C0047AF2A8D096500372725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0047AE2A8D096500372725 /* AppDelegate.swift */; };
 		8C0047B12A8D096500372725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0047B02A8D096500372725 /* SceneDelegate.swift */; };
-		8C0047B32A8D096500372725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0047B22A8D096500372725 /* ViewController.swift */; };
-		8C0047B62A8D096500372725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0047B42A8D096500372725 /* Main.storyboard */; };
+		8C0047B32A8D096500372725 /* DelegatePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0047B22A8D096500372725 /* DelegatePracticeApp.swift */; };
+		8C0047B62A8D096500372725 /* DelegatePracticeApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0047B42A8D096500372725 /* DelegatePracticeApp.storyboard */; };
 		8C0047B82A8D096700372725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0047B72A8D096700372725 /* Assets.xcassets */; };
 		8C0047BB2A8D096700372725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0047B92A8D096700372725 /* LaunchScreen.storyboard */; };
 		8C0047C62A8D096700372725 /* DelegatePracticeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0047C52A8D096700372725 /* DelegatePracticeAppTests.swift */; };
 		8C0047D02A8D096700372725 /* DelegatePracticeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0047CF2A8D096700372725 /* DelegatePracticeAppUITests.swift */; };
 		8C0047D22A8D096700372725 /* DelegatePracticeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0047D12A8D096700372725 /* DelegatePracticeAppUITestsLaunchTests.swift */; };
+		8C0047DF2A8D185100372725 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0047DE2A8D185100372725 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,8 @@
 		8C0047AB2A8D096500372725 /* DelegatePracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegatePracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0047AE2A8D096500372725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C0047B02A8D096500372725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C0047B22A8D096500372725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8C0047B52A8D096500372725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C0047B22A8D096500372725 /* DelegatePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePracticeApp.swift; sourceTree = "<group>"; };
+		8C0047B52A8D096500372725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DelegatePracticeApp.storyboard; sourceTree = "<group>"; };
 		8C0047B72A8D096700372725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C0047BA2A8D096700372725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C0047BC2A8D096700372725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		8C0047CB2A8D096700372725 /* DelegatePracticeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegatePracticeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0047CF2A8D096700372725 /* DelegatePracticeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePracticeAppUITests.swift; sourceTree = "<group>"; };
 		8C0047D12A8D096700372725 /* DelegatePracticeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePracticeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C0047DE2A8D185100372725 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				8C0047AE2A8D096500372725 /* AppDelegate.swift */,
 				8C0047B02A8D096500372725 /* SceneDelegate.swift */,
-				8C0047B22A8D096500372725 /* ViewController.swift */,
-				8C0047B42A8D096500372725 /* Main.storyboard */,
+				8C0047B22A8D096500372725 /* DelegatePracticeApp.swift */,
+				8C0047DE2A8D185100372725 /* TableViewCell.swift */,
+				8C0047B42A8D096500372725 /* DelegatePracticeApp.storyboard */,
 				8C0047B72A8D096700372725 /* Assets.xcassets */,
 				8C0047B92A8D096700372725 /* LaunchScreen.storyboard */,
 				8C0047BC2A8D096700372725 /* Info.plist */,
@@ -233,7 +236,7 @@
 			files = (
 				8C0047BB2A8D096700372725 /* LaunchScreen.storyboard in Resources */,
 				8C0047B82A8D096700372725 /* Assets.xcassets in Resources */,
-				8C0047B62A8D096500372725 /* Main.storyboard in Resources */,
+				8C0047B62A8D096500372725 /* DelegatePracticeApp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C0047B32A8D096500372725 /* ViewController.swift in Sources */,
+				8C0047B32A8D096500372725 /* DelegatePracticeApp.swift in Sources */,
+				8C0047DF2A8D185100372725 /* TableViewCell.swift in Sources */,
 				8C0047AF2A8D096500372725 /* AppDelegate.swift in Sources */,
 				8C0047B12A8D096500372725 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,12 +301,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8C0047B42A8D096500372725 /* Main.storyboard */ = {
+		8C0047B42A8D096500372725 /* DelegatePracticeApp.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8C0047B52A8D096500372725 /* Base */,
 			);
-			name = Main.storyboard;
+			name = DelegatePracticeApp.storyboard;
 			sourceTree = "<group>";
 		};
 		8C0047B92A8D096700372725 /* LaunchScreen.storyboard */ = {
@@ -442,7 +446,7 @@
 				INFOPLIST_FILE = DelegatePracticeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = DelegatePracticeApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +474,7 @@
 				INFOPLIST_FILE = DelegatePracticeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = DelegatePracticeApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
